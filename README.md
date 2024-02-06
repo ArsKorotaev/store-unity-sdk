@@ -1,4 +1,10 @@
 
+```[tasklist]
+### My tasks
+- [ ] https://github.com/octo-org/octo-repo/issues/45
+- [ ] Draft task
+```
+
 The SDK makes it easier to integrate Xsolla products into your Unity project by providing out-of-the-box data structures and methods for working with Xsolla API.
 
 After integration, you can use:
