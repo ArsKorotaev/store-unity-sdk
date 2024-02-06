@@ -102,6 +102,12 @@ We recommend you use the Mono compiler for desktop platforms as it’s compatibl
 You can use either Mono or IL2CPP compilers to create game builds for Android.
 
 ## Usage
+Integration checklist:
+- [ ] Create a project in [Publisher Account](https://publisher.xsolla.com/signup?store_type=sdk).
+- [ ] Set up a basic Login project.
+- [ ] Download the SDK.
+- [ ] In the Unity editor, go to **Assets > Import Package > Custom Package** in the main menu and select the SDK.
+- [ ] Go to **Window > Xsolla > Edit Settings** and fill in the fields in **Inspector** panel.
 
 To send requests to Xsolla servers and receive responses, the SDK provides the `XsollaAuth`, `XsollaCatalog`, `XsollaCart`, and `XsollaOrders` classes. If you want to implement your own logic for buying items or inventory management, and don’t want to write boilerplate code for API calls, these classes are a good place to start.
 
